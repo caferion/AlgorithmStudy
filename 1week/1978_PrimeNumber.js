@@ -1,5 +1,5 @@
 var path = require('path');
-var inputs = require('fs').readFileSync(path.resolve('/AlgorithmStudy/1week/1978.txt'), 'utf8').toString().trim().split('\n');
+var inputs = require('fs').readFileSync(path.resolve('./1978.txt'), 'utf8').toString().trim().split('\n');
 var primeNumberList = [];
 
 function isPrimeNumber(n){

@@ -1,5 +1,5 @@
 var path = require('path');
-var inputs = require('fs').readFileSync(path.resolve('/AlgorithmStudy/1week/10430.txt'), 'utf8').toString().trim().split(' ');
+var inputs = require('fs').readFileSync(path.resolve('./10430.txt'), 'utf8').toString().trim().split(' ');
 
 var a = +inputs[0];
 var b = +inputs[1];

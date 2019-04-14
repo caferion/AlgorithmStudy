@@ -1,5 +1,5 @@
 var path = require('path');
-var inputs = require('fs').readFileSync(path.resolve('/AlgorithmStudy/1week/9613.txt'), 'utf8').toString().trim().split('\n');
+var inputs = require('fs').readFileSync(path.resolve('./9613.txt'), 'utf8').toString().trim().split('\n');
 
 var funcA = function(x, y) {
     if (y === 0) {

@@ -1,5 +1,5 @@
 var path = require('path');
-var inputs = require('fs').readFileSync(path.resolve('/AlgorithmStudy/1week/6588.txt'), 'utf8').toString().trim().split('\n');
+var inputs = require('fs').readFileSync(path.resolve('./6588.txt'), 'utf8').toString().trim().split('\n');
 
 var prime = [];
 var check = [];
