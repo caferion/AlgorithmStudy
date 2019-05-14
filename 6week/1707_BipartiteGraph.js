@@ -25,14 +25,12 @@ function go(start) {
         color[node] = c;
         while(q.length) {
             var next = q.shift();
-            if(!list[next]) {
-                continue;
-            }
+            c = 3 - color[next];
 
             for (var ix = 0; ix < list[next].length; ix++) {
                 // var next = list[node][ix];
                 if (!color[list[next][ix]]) {
-                    c = 3 -c;
+
                     color[list[next][ix]] = c;
 
                     q.push(list[next][ix]);
@@ -51,6 +49,7 @@ function go(start) {
     for(var z =1; z <= N; z++) {
         for(var y = 0;y < list[z].length; y++) {
             if(color[z] == color[list[z][y]]) {
+
                 ok = false;
                 // console.log(color[z] ,z, y);
             }
