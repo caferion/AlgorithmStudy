@@ -1,4 +1,4 @@
-# 46.Permutation
+# 46.Rotate Image
 ![](./Rotate-Image1.png)
 ![](./Rotate-Image2.png)
 ![](./Rotate-Image3.png)
