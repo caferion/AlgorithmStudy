@@ -2,7 +2,7 @@
  * @param {number[]} nums
  * @return {number[][]}
  */
-var permute = function(nums) {
+var permute = function (nums) {
   const result = [];
   const backTrack = (resultlist, templist, numslist) => {
     if (templist.length === numslist.length) {
@@ -18,10 +18,10 @@ var permute = function(nums) {
         }
       }
     }
-  }
+  };
 
   backTrack(result, [], nums);
-  return result
+  return result;
 };
 
-permute([1,2,3]);
+permute([1, 2, 3]);
